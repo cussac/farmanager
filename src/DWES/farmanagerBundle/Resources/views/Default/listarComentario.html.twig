@@ -1,0 +1,23 @@
+{% extends 'DWESfarmanagerBundle::layout.html.twig' %}
+
+{% block title %}
+    Lista de Comentario
+{% endblock %}
+
+{% block contenido %}
+
+    <h2>
+        Comentarios de la entrada "{{ entrada.titulo }}"
+    </h2>
+
+    {% for comentario in entrada.comentarios %}
+        <h3>
+            {{ comentario.titulo }}
+        </h3>
+
+        <a href="{{ path('dwes_admin_eliminar_comentario', {'id' : comentario.id}) }}" class="btn btn-success"><span class="glyphicon glyphicon-trash" aria-hidden="true">
+                </span> ELIMINAR COMENTARIO</a><br><br>
+        <hr>
+    {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends 'DWESfarmanagerBundle::layout.html.twig' %}
+
+{% block title %}
+    Formulario de Entradas
+{% endblock %}
+
+{% block contenido %}
+    <h3 class="text-center">Formulario entradas</h3>
+    <hr class='colorgraph'>
+
+    <!-- Inici panel del contenido -->
+    <div class="panel panel-default">
+
+        <?php include_once('includes/html_templates/mensajes_alertas.php');?>
+
+        <div class="panel-body">
+
+            {% include 'DWESfarmanagerBundle:Default:flashMessage.html.twig' %}
+
+            <div class="col-sm-8">
+                <form id="addEditPost" novalidate=true class="twigform"
+                      action="{{ path('dwes_admin_entrada',{'id':id}) }}"
+                      method="post" {{ form_enctype(form) }}>
+                    {% for f in form %}
+                        {{ form_row(f) }}
+                    {% endfor %}
+                </form>
+            </div>
+        </div>
+
+        <div class="panel-footer">
+            <div class="btn-group">
+                <button type="submit" value="Guardar entrada"  form="addEditPost" class="btn btn-success" name="_guardar">
+                    <i class="glyphicon glyphicon-floppy-save"></i> Guardar entrada
+                </button>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

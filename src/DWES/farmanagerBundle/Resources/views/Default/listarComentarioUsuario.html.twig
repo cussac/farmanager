@@ -1,0 +1,22 @@
+{% extends 'DWESfarmanagerBundle::layout.html.twig' %}
+
+{% block title %}
+    Lista de Comentarios
+{% endblock %}
+
+{% block contenido %}
+
+    {% include 'DWESfarmanagerBundle:Default:flashMessage.html.twig' %}
+
+    {% for comentario in comentarios %}
+        <h2>
+            {{ comentario.titulo }}
+        </h2>
+        <p><a href="{{ path('dwes_admin_eliminar_comentarios_perfil', {'id' : comentario.id}) }}" class="btn btn-success"><span class="glyphicon glyphicon-trash" aria-hidden="true">
+                </span> Eliminar Comentarios</a></p>
+        <hr>
+    {% endfor %}
+
+
+
+{% endblock %}

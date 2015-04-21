@@ -1,0 +1,36 @@
+{% extends 'DWESfarmanagerBundle::layout.html.twig' %}
+
+{% block contenido %}
+
+    <h1 class="page-header">
+        <small>Tu Blog Farmacéutico</small>
+    </h1>
+
+    {% include 'DWESfarmanagerBundle:Default:flashMessage.html.twig' %}
+
+    {% for entrada in entradas %}
+        <h2>
+            {{ entrada.titulo }}
+        </h2>
+        <p><img src="{{ asset('uploads/documents/'~ entrada.usuario.path) }}" width="30"
+                height="30" border="5" alt="fallo al sacar la imagen">
+            {{ entrada.usuario.username }}</p>
+        <p><span class="glyphicon glyphicon-time"></span> {{ entrada.fecha|date('d/m/Y - H:i')}}</p>
+        <p><span class="glyphicon glyphicon-pencil"></span>Comentarios({{ entrada.comentarios|length }})</p>
+
+        <img src="{{ asset('uploads/documents/'~ entrada.path) }}" width="750"
+             height="300" border="5" alt="fallo al sacar la imagen">
+        <p>{{ entrada.contenido|slice(0,255) }}</p>
+
+        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+            <a class="btn btn-success"  href="{{ path('dwes_admin_ver', {'id' : entrada.id }) }}"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                Ver más... <span class="glyphicon glyphicon-chevron-right"></span></a>
+        {% else %}
+            <a class="btn btn-success"  href="{{ path('dwes_blog_ver', {'id' : entrada.id }) }}"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                Ver más... <span class="glyphicon glyphicon-chevron-right"></span></a>
+        {% endif %}
+
+        <hr>
+    {% endfor %}
+
+{% endblock %}

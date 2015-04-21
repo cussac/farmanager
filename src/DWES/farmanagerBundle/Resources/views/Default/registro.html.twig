@@ -1,0 +1,66 @@
+{% set pagina = 'registro' %}
+{% extends 'DWESfarmanagerBundle::layout_fullwidth.html.twig' %}
+
+{% block title %} Página de registro{% endblock %}
+
+{% block contenido %}
+
+    <div class="col-sm-6 col-sm-offset-3">
+
+            {% include 'DWESfarmanagerBundle:Default:flashMessage.html.twig' %}
+
+            <form id="registerForm" novalidate="true" action="" method="post" {{ form_enctype(form) }}>
+
+                <h2 class='text-center'>Regístrate</h2>
+                <hr class='colorgraph'>
+
+                <div class="input-group m-b">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-user"></i>
+                    </span>
+                    {{ form_row(form.username) }}
+                </div>
+
+                <div class="input-group m-b">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-eye-close"></i>
+                    </span>
+                    {{ form_row(form.password) }}
+                </div>
+
+                <div class="input-group m-b">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-picture"></i>
+                    </span>
+                    {{ form_row(form.file) }}
+                </div>
+
+                <div class="input-group m-b">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-qrcode"></i>
+                    </span>
+                    {{ form_label(form.captcha) }}
+                    {% if form_errors(form.captcha) %}
+                        <br/><br/>{{ form_errors(form.captcha) }}
+                    {% endif %}
+                    <br/><br/>
+                    {{ form_widget(form.captcha) }}
+                </div>
+
+                <hr class="colorgraph">
+                <br>
+
+                <p>*Todos los datos introducidos en este formulario serán tratados con estricta privacidad y de acuerdo con la normativa legal vigente en materia de protección de datos.</p>
+                {{ form_row(form.terms) }}
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type='submit' class='btn btn-lg btn-success btn-block ' name='_registrar' value='Registrarme'>
+                    </div>
+                </div>
+
+                    {{ form_rest(form) }}
+            </form>
+        </div>
+
+    </div>
+{% endblock %}

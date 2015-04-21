@@ -1,0 +1,47 @@
+{% set pagina = 'login' %}
+{% extends 'DWESfarmanagerBundle::layout_fullwidth.html.twig' %}
+
+{% block title %} Página de login{% endblock %}
+
+{% block contenido %}
+
+    <div class="col-sm-6 col-sm-offset-3">
+
+        {% include 'DWESfarmanagerBundle:Default:flashMessage.html.twig' %}
+
+        <h2 class="text-center">Datos de acceso</h2>
+
+        {% if error | default(false) %}
+            <div class="alert alert-danger">{{ error.message }}</div>
+        {% endif %}
+
+        <form id="loginForm" action="{{ path("dwes_blog_login_check") }}" method="post">
+
+            <hr class="colorgraph">
+
+            <div class="input-group m-b">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-user"></i>
+                    </span>
+                <input type="text" name="_username" value="" class="form-control input-lg" placeholder="Nombre de usuario" autofocus autocomplete="off">
+            </div>
+
+            <div class="input-group m-b">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-eye-close"></i>
+                    </span>
+                <input type="password" name="_password" class="form-control input-lg" placeholder="Introduce tu contraseña">
+            </div>
+
+            <hr class="colorgraph">
+
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <input type="submit" class="btn btn-lg btn-success btn-block" name="_entrar" value="Entrar">
+                </div>
+                <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+            </div>
+
+        </form>
+    </div>
+{% endblock %}

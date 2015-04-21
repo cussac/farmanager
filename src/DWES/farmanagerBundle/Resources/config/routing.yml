@@ -1,0 +1,104 @@
+#ruta area publica#
+
+dwes_blog_homepage:
+    path:     /
+    defaults: { _controller: DWESfarmanagerBundle:Default:index }
+
+dwes_blog_registro:
+    path:    /registro/{id}
+    defaults: { _controller: DWESfarmanagerBundle:Usuario:registro, id:-1 }
+    requirements:
+        id: \d+
+
+dwes_blog_login:
+    path:    /login
+    defaults: { _controller: DWESfarmanagerBundle:Login:login }
+
+dwes_blog_login_check:
+    path:    /login_check
+
+dwes_blog_logout:
+    path:    /logout
+
+dwes_blog_ver:
+    path: /entrada-completa/{id}/
+    defaults: { _controller: DWESfarmanagerBundle:Entrada:ver }
+    requirements:
+        page: \d+
+
+dwes_blog_comentario:
+    path: /comentario/{id}/
+    defaults: { _controller: DWESfarmanagerBundle:Comentario:comentario }
+    requirements:
+        page: \d+
+
+dwes_blog_pdf:
+    path: /pdf
+    defaults: { _controller: DWESfarmanagerBundle:Pdf:pdf }
+
+
+#ruta area privada#
+
+dwes_admin_Index:
+    path:     /user
+    defaults: { _controller: DWESfarmanagerBundle:Default:index }
+
+dwes_admin_perfil:
+    path:    /user/perfil/{username}
+    defaults: { _controller: DWESfarmanagerBundle:Usuario:perfil }
+
+dwes_admin_listar:
+    path: /user/listar/entradas
+    defaults: { _controller: DWESfarmanagerBundle:Entrada:listar }
+
+dwes_admin_listar_comentario_usuario:
+    path: /user/listar/comentarios
+    defaults: { _controller: DWESfarmanagerBundle:Comentario:listarUsuario }
+
+dwes_admin_entrada:
+    path: /user/formulario/entradas/{id}
+    defaults: { _controller: DWESfarmanagerBundle:Entrada:formulario, id:-1}
+    requirements:
+        id: \d+
+
+dwes_admin_ver:
+    path: /user/entrada/completa/{id}
+    defaults: { _controller: DWESfarmanagerBundle:Entrada:ver }
+    requirements:
+        page: \d+
+
+dwes_admin_comentario:
+    path: /user/comentario/{id}
+    defaults: { _controller: DWESfarmanagerBundle:Comentario:comentario }
+    requirements:
+        page: \d+
+
+dwes_admin_listar_comentario:
+    path: /user/listar/comentarios/{id}
+    defaults: { _controller: DWESfarmanagerBundle:Comentario:listar }
+    requirements:
+        page: \d+
+
+dwes_admin_eliminar_comentario:
+    path: /user/eliminar/comentario/{id}/
+    defaults: { _controller: DWESfarmanagerBundle:Comentario:eliminar}
+    requirements:
+        id: \d+
+
+dwes_admin_eliminar_comentarios_perfil:
+    path: /user/eliminar/comentarios/perfil/{id}/
+    defaults: { _controller: DWESfarmanagerBundle:Comentario:eliminarComentarios}
+    requirements:
+        id: \d+
+
+dwes_admin_eliminar_entradas_perfil:
+    path: /user/eliminar/entradas/perfil/{id}/
+    defaults: { _controller: DWESfarmanagerBundle:Entrada:eliminarEntradas}
+    requirements:
+        id: \d+
+
+dwes_admin_eliminar_usuario:
+    path: /user/eliminar/usuario/{id}/
+    defaults: { _controller: DWESfarmanagerBundle:Usuario:eliminar}
+    requirements:
+        id: \d+

@@ -1,0 +1,72 @@
+{% extends 'DWESfarmanagerBundle::layout.html.twig' %}
+
+{% block contenido %}
+
+    <article id="post-{{ entrada.id }}" class="post">
+
+        <header>
+            <h2 class="page-header">{{ entrada.titulo }}</h2>
+
+            <small>
+                <span class="glyphicon glyphicon-time"></span> {{ entrada.fecha|date('d/m/Y - H:i')}}
+                <br>
+                <img src="{{ asset('uploads/documents/'~ entrada.usuario.path) }}" width="30"
+                        height="30" border="5" alt="fallo al sacar la imagen">
+                    {{ entrada.usuario.username }}
+
+                <a class="label label-success margin-left-xs" href="{{ path('dwes_blog_pdf') }}">
+                    <i class="glyphicon glyphicon-print"></i> Imprimir
+                </a>
+            </small>
+        </header>
+
+        <div class="content-entry">
+            <img class="img-thumbnail img-responsive"
+                 src="{{ asset('uploads/documents/'~ entrada.path) }}" width="375"
+                 height="375" border="5"
+                 alt="{{ entrada.titulo }}">
+            {{ entrada.contenido }}
+        </div>
+
+    </article>
+    <!-- /aticulo -->
+    <br>
+    <!-- Comentarios -->
+    <section id="comments" class="row">
+        <h4>
+            <strong>COMENTARIOS</strong>
+        </h4>
+        <ol id="comment-list" class="clearfix">
+            {% for comentario in entrada.comentarios %}
+                <li class="comment col-xs-12" id="comment-{{ comentario.id }}">
+                    <div class="pull-left col-xs-3 text-center">
+                        <img src="{{ asset('uploads/documents/'~ comentario.usuario.path) }}" width="30"
+                             height="30" border="5" alt="fallo al sacar la imagen">
+                        {{ comentario.usuario.username }}
+                        <p><span class="date">
+                            <i class="glyphicon glyphicon-time"></i>
+                            {{ comentario.fecha | date("d/m/Y - H:i") }}
+                        </span></p>
+                        <hr class="colorgraph">
+                    </div>
+                    <div class="comment-body pull-right col-sm-9  col-xs-12">
+                        <strong class="comment-title">{{ comentario.titulo}}</strong>
+                        <p>{{ comentario.contenido}}<p>
+                    </div>
+                    <hr class="colorgraph">
+                </li>
+            {% endfor %}
+        </ol>
+    </section>
+    <!-- /section#comments -->
+    <br>
+
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        <a href="{{ path('dwes_admin_comentario', {'id' : entrada.id}) }}" class="btn btn-success"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+            AÑADIR COMENTARIO</a><br><br>
+    {% else %}
+        <a href="{{ path('dwes_blog_comentario', {'id' : entrada.id}) }}" class="btn btn-success"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+            AÑADIR COMENTARIO</a><br><br>
+    {% endif %}
+
+{% endblock %}

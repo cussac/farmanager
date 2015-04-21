@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d352c7ed-8aee-49de-b308-073d5987abfd" name="Default" comment="" />
+    <ignored path="farmanager.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="farmanager" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/vendor/composer/installed.json" />
+        <option value="$PROJECT_DIR$/app/autoload.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Models/Document.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Models/UploadFileMover.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/layoutLogin.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/layout_fullwidth.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Form/EntradaType.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Entity/Entrada.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Entity/Comentario.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/entrada.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/listarComentario.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/LoginController.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Form/UsuarioType.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/DqlController.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/ComentarioController.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/listarComentarioUsuario.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/EntradaController.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/listar.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/perfil.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/UsuarioController.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Entity/Usuario.php" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/registro.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/comentario.html.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/ver.html.twig" />
+        <option value="$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/PdfController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP de XAMPP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="26" />
+    <option name="width" value="1368" />
+    <option name="height" value="620" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="git&#10;vendor/bundles&#10;deps" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller" />
+      <recent name="$PROJECT_DIR$/web/bundles/estilofarmanager/css" />
+      <recent name="$PROJECT_DIR$/web/bundles/estilofarmanager/js" />
+      <recent name="$PROJECT_DIR$/web/uploads/documents" />
+      <recent name="$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d352c7ed-8aee-49de-b308-073d5987abfd" name="Default" comment="" />
+      <created>1426614917089</created>
+      <updated>1426614917089</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="26" width="1368" height="620" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12688822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="337" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/estilofarmanager/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/UserInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="20" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.30731708" vertical-offset="1134" max-vertical-offset="1548" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormTypeInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="20" selection-start="3203" selection-end="3203" vertical-scroll-proportion="3.7536585" vertical-offset="9" max-vertical-offset="1692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-15.105943" vertical-offset="5846" max-vertical-offset="7398" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/installed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="28" selection-start="612" selection-end="612" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="29538" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/KernelInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="7" selection-start="893" selection-end="893" vertical-scroll-proportion="0.95454544" vertical-offset="147" max-vertical-offset="3708" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="62" selection-start="247" selection-end="247" vertical-scroll-proportion="0.39512196" vertical-offset="0" max-vertical-offset="410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Entity/UsuarioRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/layoutLogin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="407" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/flashMessage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="564" selection-end="564" vertical-scroll-proportion="0.4390244" vertical-offset="0" max-vertical-offset="410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/estilofarmanager/js/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="424" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/estilofarmanager/js/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="424" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/estilofarmanager/css/jquery-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="424" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Form/EntradaType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="431" selection-end="836" vertical-scroll-proportion="0.30243903" vertical-offset="146" max-vertical-offset="1062" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="75" selection-start="550" selection-end="550" vertical-scroll-proportion="0.61098397" vertical-offset="75" max-vertical-offset="1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="54" selection-start="711" selection-end="711" vertical-scroll-proportion="0.37209302" vertical-offset="90" max-vertical-offset="504" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.5390244" vertical-offset="85" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.576659" vertical-offset="0" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Form/UsuarioType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/DqlController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="2375" selection-end="2375" vertical-scroll-proportion="3.3023255" vertical-offset="0" max-vertical-offset="1404">
+          <folding>
+            <element signature="e#1218#1259#0" expanded="true" />
+            <element signature="e#2316#2357#0" expanded="true" />
+            <marker date="1429372106939" expanded="true" signature="-1:-1" placeholder="SELECT ent F..DWESblogBundle..." />
+            <marker date="1429372106939" expanded="true" signature="-1:-1" placeholder="SELECT ent F..DWESblogBundle..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Entity/ComentarioRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/listar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="83" selection-start="866" selection-end="866" vertical-scroll-proportion="0.70528966" vertical-offset="134" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/listarComentarioUsuario.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="96" selection-start="334" selection-end="410" vertical-scroll-proportion="0.5465995" vertical-offset="35" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/layout_fullwidth.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="27" selection-start="3546" selection-end="3546" vertical-scroll-proportion="1.2245989" vertical-offset="892" max-vertical-offset="2484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/EntradaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="49" selection-start="3280" selection-end="3280" vertical-scroll-proportion="2.3703704" vertical-offset="1864" max-vertical-offset="2376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/UsuarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="1" selection-start="3555" selection-end="3555" vertical-scroll-proportion="-12.518518" vertical-offset="1570" max-vertical-offset="2016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Entity/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="8" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.35609755" vertical-offset="1186" max-vertical-offset="10908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Entity/Entrada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="52" selection-end="471" vertical-scroll-proportion="0.23414634" vertical-offset="462" max-vertical-offset="6552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Entity/Comentario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="23" selection-start="1037" selection-end="1037" vertical-scroll-proportion="-4.007317" vertical-offset="2525" max-vertical-offset="3798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="161" selection-end="161" vertical-scroll-proportion="0.2720403" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="22" selection-start="4701" selection-end="4701" vertical-scroll-proportion="2.1209068" vertical-offset="1318" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1297" selection-end="1332" vertical-scroll-proportion="-6.740741" vertical-offset="448" max-vertical-offset="936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/listarComentario.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="324" selection-end="324" vertical-scroll-proportion="0.5534759" vertical-offset="63" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/perfil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.31738034" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/registro.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1805" selection-end="1844" vertical-scroll-proportion="0.36775818" vertical-offset="736" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/comentario.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="43" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.7365854" vertical-offset="418" max-vertical-offset="1044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/entrada.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="41" selection-start="817" selection-end="817" vertical-scroll-proportion="0.5121951" vertical-offset="222" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="43" selection-start="422" selection-end="422" vertical-scroll-proportion="-5.3333335" vertical-offset="90" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="58" selection-start="952" selection-end="952" vertical-scroll-proportion="-11.814815" vertical-offset="59" max-vertical-offset="810">
+          <folding>
+            <element signature="e#7#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.0" vertical-offset="1168" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/ComentarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="298" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3348">
+          <folding>
+            <element signature="e#52#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/pdf.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Controller/PdfController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="209" selection-end="209" vertical-scroll-proportion="0.33170733" vertical-offset="26" max-vertical-offset="576">
+          <folding>
+            <element signature="e#52#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DWES/farmanagerBundle/Resources/views/Default/ver.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="90" selection-start="672" selection-end="672" vertical-scroll-proportion="0.7254408" vertical-offset="0" max-vertical-offset="1386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

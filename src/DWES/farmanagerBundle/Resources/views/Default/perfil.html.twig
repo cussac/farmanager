@@ -1,0 +1,25 @@
+{% extends 'DWESfarmanagerBundle::layout.html.twig' %}
+
+{% block title %}
+    Perfil Usuario
+{% endblock %}
+
+{% block contenido%}
+
+    <center>
+
+        <img src="{{ asset('uploads/documents/'~ usuario.path) }}" width="150"
+         height="150" border="5" alt="fallo al sacar la imagen">
+        <p>Nombre usuario:  {{ usuario.username }}</p>
+        <small>Comentarios({{ usuario.comentarios|length}})</small>
+        <small>Entradas({{ usuario.entradas|length}})</small>
+        <hr>
+
+        <a href="{{ path('dwes_blog_registro', {'id' : usuario.id}) }}" class="btn btn-success"><span class="glyphicon glyphicon-edit" aria-hidden="true">
+        </span> MODIFICAR USUARIO</a>
+        <a href="{{ path('dwes_admin_eliminar_usuario', {'id' : usuario.id}) }}" class="btn btn-success"><span class="glyphicon glyphicon-trash" aria-hidden="true">
+        </span> ELIMINAR USUARIO</a>
+
+    </center>
+
+{% endblock %}

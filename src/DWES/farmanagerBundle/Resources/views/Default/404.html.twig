@@ -1,0 +1,26 @@
+{% set pagina = '404' %}
+{% include '@DevAppFront/layout_fullwidth.html.twig' %}
+<!-- Inicio section.main -->
+<section id="page-404" class="main col-xs-12 col-sm-10 col-sm-offset-1">
+    <article class="post">
+        <div class="content-entry row">
+            <figure class="pull-left col-xs-4">
+                <img src="img/404.jpg" alt="Ha ocurrido un error"/>
+            </figure>
+            <div class="pull-right text-center col-xs-8">
+                <h1 class="error-404">Oops!</h1>
+                <h4>404 {% if mensaje is defined %}{{ mensaje }}{% else %}Página no encontrada{% endif %}</h4>
+                <p>Lo siento, al parecer la página que buscas no existe!</p>
+                <a href="" class="btn btn-primary">
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                    <a href="{{ path("dev_app_front_homepage") }}" class="btn btn-primary">
+                        <i class="glyphicon glyphicon-chevron-left"></i>  Regresar al contenido
+                    </a>
+                </a>
+            </div>
+        </div>
+    </article>
+</section>
+<!-- /section.main -->
+
+

@@ -1,0 +1,53 @@
+{% extends 'DWESfarmanagerBundle::layout.html.twig' %}
+
+
+{% block title %}
+    Añadir Comentario
+{% endblock %}
+
+{% block contenido %}
+
+    <h3 class="text-center">Se va añadir un comentario a la entrada "{{ entrada.titulo }}".
+        Recuerda que los comentarios pueden ser eliminados por el autor del blog.</h3>
+    <hr class='colorgraph'>
+
+    <!-- Inici panel del contenido -->
+    <div class="panel panel-default">
+
+        <?php include_once('includes/html_templates/mensajes_alertas.php');?>
+
+        <div class="panel-body">
+        {% include 'DWESfarmanagerBundle:Default:flashMessage.html.twig' %}
+
+            <div class="col-sm-8">
+                <form   novalidate="true"
+                        id="formularioComentario"
+                        method="post"
+                        action="{{ path('dwes_blog_comentario', {'id': entrada.id }) }}"
+                        {{ form_enctype(form) }}>
+
+                    <div>
+                        {{ form_label(form.titulo) }}
+                        {{ form_errors(form.titulo) }}
+                        {{ form_widget(form.titulo) }}
+                    </div>
+                    <div>
+                        {{ form_label(form.contenido) }}
+                        {{ form_errors(form.contenido) }}
+                        {{ form_widget(form.contenido) }}
+                    </div>
+
+                    {{ form_rest(form) }}
+                    {{ form_errors(form) }}
+
+                    <hr class="colorgraph">
+                    <button type="submit" value="enviar"  class="btn btn-success" name="enviar">
+                        <i class="glyphicon glyphicon-floppy-save"></i> Guardar comentario
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
