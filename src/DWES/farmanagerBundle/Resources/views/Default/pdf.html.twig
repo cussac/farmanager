@@ -1,0 +1,26 @@
+
+    <pdf>
+
+        <dynamic-page>
+
+            <article id="post-{{ entrada.id }}" class="post">
+                <header>
+                    <h2 class="page-header">{{ entrada.titulo }}</h2>
+                    <small>
+                        <span class="glyphicon glyphicon-time"></span> {{ entrada.fecha|date('d/m/Y - H:i')}}
+                        <br>
+                        <p>CREADO POR: <strong>{{ entrada.usuario.username|upper }}</strong></p>
+                    </small>
+                </header>
+            </article>
+
+            <div class="content-entry">
+                <img src="{{ asset('uploads/documents/'~ entrada.path) }}" width="750"
+                     height="300" border="5" alt="fallo al sacar la imagen">
+                {{ entrada.contenido }}
+            </div>
+
+        </dynamic-page>
+
+    </pdf>
+

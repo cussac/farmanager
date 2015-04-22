@@ -12,7 +12,8 @@
         <h2>
             {{ entrada.titulo }}
         </h2>
-        <p><img src="{{ asset('uploads/documents/'~ entrada.usuario.path) }}" width="30"
+        <p><img id="imagenent" class="img-thumbnail img-responsive"
+                src="{{ asset('uploads/documents/'~ entrada.usuario.path) }}" width="30"
                 height="30" border="5" alt="fallo al sacar la imagen">
             {{ entrada.usuario.username }}</p>
         <p><span class="glyphicon glyphicon-time"></span> {{ entrada.fecha|date('d/m/Y - H:i')}}</p>

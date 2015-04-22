@@ -33,8 +33,10 @@ dwes_blog_comentario:
         page: \d+
 
 dwes_blog_pdf:
-    path: /pdf
+    path: /pdf/{id}/
     defaults: { _controller: DWESfarmanagerBundle:Pdf:pdf }
+    requirements:
+        page: \d+
 
 
 #ruta area privada#
